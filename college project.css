@@ -1,0 +1,632 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Nunito:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mouse+Memoirs&family=Nunito:wght@700&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    font-family: serif;
+    position: relative;
+    width: 100vw;
+}
+#final{
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+#final:hover{
+    background-color: white;
+    color: black;
+}
+marquee{
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{
+        
+    }
+    100%{
+        
+
+    }
+}
+#nav{
+    background-color:rgb(43, 43, 77);
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    transition: 1s;
+    box-shadow: 2px 1px 20px black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#kec2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+#inst{
+    margin: 25px;
+   }
+   .col-lg-6{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    flex-direction: column;
+   }
+#row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about div h1{
+    color: cadetblue;
+    font-weight: 800;
+}
+.row .card{
+    display: flex;
+    justify-content: center;
+}
+#des{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    
+    border-radius: 50%;
+    
+}
+#footer{
+    background: linear-gradient(90deg, hsla(162, 42%, 5%, 1) 0%, hsla(158, 13%, 34%, 1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px;
+    position: relative;
+    margin-top: 50px;
+    box-shadow:  1.5px 20px 30px 10px black;
+   }
+   #kl,ion-icon{
+    color: gold;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    opacity: 40%;
+
+   }
+   #kl,ion-icon:hover{
+    opacity: 1;
+   }
+   .icon{
+    display: inline;
+    margin: 30px;
+   }
+   #footer h5{
+    font-size: 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+
+   text-shadow: 0px 0px 2px white;
+   margin: 10px;
+   opacity: .8;
+   
+   }
+   #footer h5:hover{
+    opacity: 1;
+   }
+
+
+#nav h3{
+    margin: auto;
+    color: white;
+    font-weight: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    
+
+}
+#nav h3:hover{
+    border-bottom: black 6px double;
+    
+}
+#tel{
+    color:white;
+    font-size: 20px;
+}
+.container{
+    background-image:linear-gradient(rgba(240, 226, 226, 0.8),rgba(0,0,0,.8)), url(toset.jpg);
+    width: 100vw;
+    min-height: 500px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#administrator{
+    margin: 50px;
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#administrator:hover{
+    transition: 1s;
+    
+}
+select{
+  text-align: center;
+}
+#student{
+    margin: 100px;
+    border: 2px  solid;
+    padding: 10px;
+    color: white;
+    
+
+}
+#student:hover{
+    margin: 80px;
+    transition: .7s;
+    background-color:rgb(232, 153, 6);
+    
+}
+#student:hover:after{
+    content: '>';
+    position: absolute;
+    animation: arrow 2s infinite;
+}
+@keyframes arrow{
+    100%{
+      transform: translateX(10px);
+    }
+}
+#black{
+    
+    color: orange;
+}
+.none{
+    display: none;
+}
+
+#studentform{
+    color: black;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+   margin: 20px;
+   justify-content: center;
+
+}
+h4{
+    font-size: 16px;
+    margin: 10px;
+    color:black;
+}
+input,#select{
+    
+    width: 400px;
+    height: 50px;
+    font-size: 17px;
+    padding: 0px 50px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    opacity: 90%;
+}
+input:hover,#select:hover{
+    box-shadow: 2px 2px 10px black;
+    border: .1px black dashed;
+    opacity: 1;
+}
+
+#name{
+    margin: 20px;
+}
+#gap{
+    margin: 30px;
+}
+.star{
+    color: red;
+}
+#ful{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.finalsubmit{
+    background-color: rgb(0, 17, 255);
+    
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    margin: 45vw;
+
+
+
+}
+.finalsubmit.hover{
+    color: blue;
+    border-radius: 10px;
+    background-color: white;
+}
+#login,#submit{
+
+    margin: 30px;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    transition: 1s;
+}
+#login:hover,#submit:hover{
+    background-color: orange;
+    border: none;
+}
+
+#submit:hover::after,#login:hover::after{
+    content: '      >';
+   
+}
+.box{
+    
+    min-width: 300px;
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+.box input{
+    background-color: rgb(108, 108, 178);
+    opacity: .3;
+    color: white;
+
+
+}
+.box:hover input{
+    opacity: .4;
+    
+}
+#pre,#pree{
+    color: black;
+    margin-right: 40px;
+
+}
+#pree{
+    position: absolute;
+    left: 0;
+    margin: 10px;
+}
+#gg{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+input[type="checkbox"]:checked {
+    color: yellow;
+  }
+.card{
+    border-radius: 4px;
+    width: 93vw;
+    margin-bottom: 40px;
+    background-color: rgba(240, 236, 236, 0.738);
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    box-shadow: 10px 0px 30px black;
+}
+.hoverme{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+.k{
+    display: flex;
+}
+.cardimg{
+    flex: 1;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+    
+}
+.carddetailes{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.leave{
+    background-color: black;
+    color: white;
+
+}
+.cardheading{
+    
+    flex-direction: column;
+    padding: 30px;
+    min-height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    
+}
+.periods{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   flex-wrap: wrap;
+   
+
+}
+.period{
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-left: 8px;
+
+}
+.sampleblock{
+    padding: 2px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: gray;
+    opacity: .5;
+    cursor: not-allowed;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+    }
+.sample{
+
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.samplered{
+    
+  padding: 2px 10px;
+
+
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    
+
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: auto;
+}
+.cardmax{
+    font-size: 15px;
+    color: red;
+    margin: auto;
+}
+.firstnone{
+    background-color: black;
+    color: white;
+padding: 10px;
+margin-top: 110%;
+animation: coming 1s forwards  ;
+transition: 1s;
+
+
+
+}
+.firstnone:hover::after{
+    content: '>';
+}
+.firstnone:hover{
+    background-color: orange;
+    border: none;
+    outline: none;
+}
+@keyframes coming{
+    100%{
+      margin: 0%;
+    }
+}
+.firstnone:hover{
+    border: 2px solid black;
+}
+
+#av{
+    font-size: 10px;
+    transform: translate(0px,10px);
+    margin: auto;
+    color:crimson;
+    margin-bottom: 6px;
+}
+.selectp,.selectu{
+    background-color: lightcyan;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+
+}
+
+.sbefore{
+    position: fixed;
+    right: 0;
+    box-shadow: 2px 2px 2px green;
+    margin-right: 10px;
+       color: white;
+    margin-top: calc(70vh/2);
+    background-color: rgb(42, 158, 42);
+    padding: 15px 30px;
+    border-radius: 20px;
+    z-index: 3;
+}
+.sbefore:hover{
+    background-color: white;
+    color: rgb(42, 158, 42);
+    border: 1px solid rgb(42, 158, 42);;
+}
+#selected{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+table, th, td {
+    border:1px solid black;
+    color: white;
+  }
+  *{
+    padding: 0;
+
+
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+#def{
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    opacity: 90%;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+body{
+   
+   align-items: center;
+
+}
+.list2{
+
+}
+.list{
+    background-color: white;
+    height: 50px;
+    cursor: move;
+    
+}
+.gif{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    opacity: 85%;
+    transform: translateY(-20px);
+    display: none;
+}
+#ticki{
+    width: 50px;
+    height: 50px;
+}
+.selectp:hover{
+    background-color: green;
+    color: white;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cardhover{
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    transform: translate(0px,-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 1s;
+    color: white;
+    text-align: center;
+    background-color: rgba(31, 25, 25, 0.771);
+}
+.backred{
+    background-color: red;
+}
+
+ol li{
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+
+    color: red;
+}
